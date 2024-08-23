@@ -17,7 +17,6 @@ public class PlayerMove : MonoBehaviour
     public bool Air = false;
     public Camera viewCamera;
     public float h, v;
-    public float rotateSpeed = 10.0f;
     public float X = 0f;
     public float Y = 0f;
     public float Z = 0f;
@@ -25,20 +24,25 @@ public class PlayerMove : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        viewCamera = Camera.main;
+
         Rigidbody = GetComponent<Rigidbody>();
     }
     void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.RightArrow))
-            Y+=2;
+            Y += 2;
         if (Input.GetKey(KeyCode.LeftArrow))
-            Y-=2;
+            Y -= 2;
         if (Input.GetKey(KeyCode.LeftShift))
+        {
             Speed = 10;
+            
+        }
         else
+        {
             Speed = 5;
-        //if (Input.GetKeyUp(KeyCode.LeftShift)||Speed==10f)Speed = 5f;
+            
+        }
 
 
 
@@ -68,7 +72,7 @@ public class PlayerMove : MonoBehaviour
         if (transform.position.y < -3)
             transform.position = new Vector3(0,3,0);
 
-        if (Time.time > nextFireTime)
+        if (Time.time > nextFireTime&& Input.GetKeyDown(KeyCode.Z))
         {
             nextFireTime = Time.time + 1f / fireSpeed;
             GameObject temp = Instantiate(projectile, firePoint.transform.position, firePoint.transform.rotation);
