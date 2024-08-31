@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 511
     width: 1106
     height: 334
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -148,8 +148,8 @@ MonoBehaviour:
     y: 0
     width: 318
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -297,8 +297,8 @@ MonoBehaviour:
     y: 0
     width: 1106
     height: 511
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -364,9 +364,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: ec590000
-    m_LastClickedID: 23020
-    m_ExpandedIDs: 00000000e059000000ca9a3bffffff7f
+    m_SelectedIDs: f8590000
+    m_LastClickedID: 23032
+    m_ExpandedIDs: 00000000ec59000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -394,7 +394,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e0590000
+    m_ExpandedIDs: 00000000ec590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -534,9 +534,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 7c590000
-      m_LastClickedID: 22908
-      m_ExpandedIDs: 30fbffff7c590000
+      m_SelectedIDs: 74d8ffff
+      m_LastClickedID: -10124
+      m_ExpandedIDs: 74d8ffff4cdaffff3adcffffa2f8ffff30fbffff88590000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -871,9 +871,9 @@ MonoBehaviour:
       floating: 1
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -247, y: -139}
+      snapOffset: {x: 858, y: 351}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
       index: 0
       layout: 4
@@ -903,9 +903,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.3430375, y: 3.699208, z: -1.9294742}
+    m_Target: {x: 0.12398746, y: 2.4135668, z: -1.9501226}
     speed: 2
-    m_Value: {x: -1.3430375, y: 3.699208, z: -1.9294742}
+    m_Value: {x: 0.12398746, y: 2.4135668, z: -1.9501226}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -951,13 +951,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.34748492, y: -0.007032546, z: 0.002606188, w: 0.93765557}
+    m_Target: {x: 0.16928466, y: 0.057620134, z: -0.009914442, w: 0.9838313}
     speed: 2
-    m_Value: {x: 0.34748492, y: -0.007032546, z: 0.002606188, w: 0.93765557}
+    m_Value: {x: 0.16928469, y: 0.057620145, z: -0.009914444, w: 0.98383147}
   m_Size:
-    m_Target: 2.2856567
+    m_Target: 0.4738826
     speed: 2
-    m_Value: 2.2856567
+    m_Value: 0.4738826
   m_Ortho:
     m_Target: 0
     speed: 2
